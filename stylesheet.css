@@ -1,0 +1,188 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    height:50px;
+    line-height: 50px;
+    font-size: .90em;
+}
+
+ul li {
+	float:right;
+}
+
+ul li a {
+	width:60px;
+	text-decoration: none;
+	color: rgb(76, 76, 76);
+	display:block;
+}
+
+ul li a:hover {
+	text-decoration:underline;
+}
+
+#name {
+	color: rgb(115, 115, 115);
+	width:60px;
+}
+
+#apps {
+	height: 20px;
+	width: 20px;
+	background-color: rgb(115, 115, 115);
+	border:none;
+	color:white;
+	line-height: 20px;
+	text-align: center;
+	margin-top:15px;
+	margin-right:15px;
+	font-family: Arial;
+}
+
+#apps:hover {
+	background-color:rgb(38, 38, 38);
+}
+
+#notifications {
+	height: 20px;
+	width: 20px;
+	border-radius: 50%;
+	background-color: rgb(115, 115, 115);
+	border:none;
+	color:white;
+	text-align: center;
+	line-height: 20px;
+	margin-top:15px;
+	margin-right:15px;
+	font-family: Arial;
+}
+
+#notifications:hover {
+	background-color:rgb(38, 38, 38);
+}
+
+#account {
+	background-color: rgb(194, 24, 91);
+	height: 40px;
+	width: 40px;
+	border-radius: 50%;
+	border:none;
+	color:white;
+	text-align: center;
+	line-height: 38px;
+	margin-top:6px;
+	margin-right:15px;
+	font-family: Arial;
+}
+
+.center {
+	margin-top:150px;
+	margin-left: 25%;
+	margin-right: 25%;
+}
+
+#googlelogo {
+	height:92px;
+	width:272px;
+	margin:auto;
+	display:block;
+}
+
+#paris {
+	width:48px;
+	display:block;
+	margin:auto;
+	padding:30px;
+}
+
+#memorial {
+	display:none;
+}
+
+#Footer {
+	background-color: rgb(242, 242, 242);
+	border-top: 1px solid rgb(228, 228, 228);
+	bottom:0;
+	width:100%;
+	height:40px;
+	display:block;
+	position:absolute;
+}
+
+#Adv {
+	text-align:center;
+	top:15px;
+}
+
+form {
+	margin:auto;
+}
+
+input {
+	width:490px;
+	height:33px;
+	margin:auto;
+	font-size:1.75em;
+}
+
+#searchbar {
+	width:500px;
+	margin:auto;
+	padding:30px;
+}
+
+#buttons {
+	width:275px;
+	margin:auto;
+	font-weight: bolder;
+}
+
+.button {
+	display:inline;
+	padding:10px;
+	background-color: rgb(242, 242, 242);
+	color: rgb(117, 117, 117);
+	border:1px solid white;
+}
+
+.button:hover {
+	border:1px solid rgb(123, 123, 123);
+	color:black;
+}
+
+#Footer div {
+	display:inline;
+	position:relative;
+	color: rgb(117, 117, 117);
+	top:10px;
+}
+
+#Footer {
+	font-size:.9em;
+}
+
+#Footer div div {
+	top:0;
+}
+
+#Footer div div a {
+	text-decoration:none;
+	color: rgb(117, 117, 117);
+}
+
+#Footer div div a:hover {
+	text-decoration: underline;
+}
+
+#footerright {
+	float:right;
+}	
+
+#footerright div {
+	padding-right:30px;
+}
+
+#footerleft div {
+	padding-left:30px;
+}
